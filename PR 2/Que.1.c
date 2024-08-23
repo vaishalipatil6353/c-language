@@ -15,9 +15,35 @@
         :(mark>=40 && mark<=60)?'E'
         : 'F';
         
-        printf("your grade is % c",grade);
+    printf("your grade is % c",grade);
+        
+        
+     switch (grade)
+   {
+   
+   
+    case'A':printf("execellent work!");
+    break;
+    case'B':printf("well done");
+    break;
+    case'C':printf("good job");
+    break;
+    case'D':printf("passed");
+    break;
+    case'E':printf("not is better");
+    break;
+    case'F':printf("failed");
+    break;
+    }
+      if(grade=='A'||grade=='B'||grade=='C'||grade=='D'||grade=='E')
+      {
+      	printf("congratulation!you are eligible for next level");
+	  }
+     else
+     {
+     	printf("pleae");
+	 }
         
 }
 		
-
 
